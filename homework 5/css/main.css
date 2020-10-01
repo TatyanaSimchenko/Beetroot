@@ -1,0 +1,99 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+@font-face {
+    font-family: 'Raleway-Regular';
+    src: url('../fonts/Raleway-Regular.eot') format('eot'),
+         url('../fonts/Raleway-Regular.ttf') format('ttf'),
+         url('../fonts/Raleway-Regular.woff') format('woff'),
+         url('../fonts/Raleway-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    width: 1568px;
+    background-color: #000;
+}
+
+h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway-Regular';
+    color: #fff;
+    line-height: 24px;
+    
+}
+
+.main {
+    height: 457px;
+    background-color: rgba(32, 32, 32, 0.871);
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    padding-top: 105px;
+    
+}
+
+.item__box {
+    max-width: 365px;
+    height: 270px;
+    text-align: center;
+    margin-right: 33px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+img {
+height: 82px;
+width: 82px;
+margin-bottom: 45px;
+transition: all 0.8s;
+}
+
+.item__box-title {
+    margin-bottom: 40px;
+    font-size: 24px;
+    transition: all 0.8s;
+}
+
+img:hover {
+    height: 90px;
+    width: 90px;
+    margin-bottom: 37px;
+
+}
+.item__box-title:hover, .item__box-text:hover {
+    color: #ff9c00;
+}
+
+.item__box-text {
+    font-size: 14px;
+    transition: all 0.8s;
+}
+
+
+
+
+/* .Rectangle_22 {
+    background-color: rgba(32, 32, 32, 0.871);
+    position: absolute;
+    left: -18px;
+    top: 0px;
+    width: 1654px;
+    height: 457px;
+    z-index: 4;
+  } */
+  
