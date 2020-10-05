@@ -1,24 +1,88 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
 
 :root {
-    --WHITE: #fff;
-    --BLACK: #000;
-    --BLUE: #2a69a6;
-    --GRAY: #9d9d9d;
-    --CONTAINER: 900px;
+  --WHITE: #fff;
+  --BLACK: #000;
+  --BLUE: #2a69a6;
+  --GRAY: #9d9d9d;
+  --CONTAINER: 900px;
 }
 
-
-
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
+.section {
+  min-height: 289px;
+}
+
+.container {
+  width: 100%;
+  width: var(--CONTAINER);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 54px 24px 65px;
+}
+
+.item-box {
+  display: block;
+  width: 245px;
+}
+
+.item-box__icon {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border: 1px solid var(--BLUE);
+    background-color: var(--BLUE);
+    border-radius: 50px;
+    height: 64px;
+    width: 64px;
+    transition: all .1s ease-in;
+}
+
+.item-box__icon:hover {
+    background-color: var(--WHITE);
+    fill: var(--WHITE);
+}
+
+.item-box__icon-image {
+    padding-top: 18px;
+    fill: var(--WHITE);
+    transition: all .1s ease-in;
+}
+
+.item-box__icon-image:hover {
+    fill: var(--BLUE);
+}
+
+.item-box__title {
+  text-align: center;
+ margin-bottom: 23px;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--BLACK);
+}
+
+.item-box__text {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: var(--GRAY);
+}
