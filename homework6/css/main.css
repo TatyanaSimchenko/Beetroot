@@ -1,0 +1,24 @@
+
+
+:root {
+    --WHITE: #fff;
+    --BLACK: #000;
+    --BLUE: #2a69a6;
+    --GRAY: #9d9d9d;
+    --CONTAINER: 900px;
+}
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
