@@ -1,0 +1,102 @@
+:root {
+    --BG: #3B3F45;
+    --CORAL: #E97D7F;
+    --DARK: #4A4F56;
+    --GREY: #7A7593;
+    --LIGHTGREY: #88839E;
+    --DARKGREY: #625E77;
+    --WHITE: #fff;
+    --CONTAINER: 1190px;
+    }
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+  body {
+      margin: 30px;
+      background-color: var(--WHITE);
+      font-family:  \'Trebuchet MS\', Trebuchet, Arial, sans-serif;
+  }
+  .wrapper {
+      width: var(--CONTAINER);
+      background-color: var(--BG);
+  }
+
+  .header {
+      display: block;
+      text-align: center;
+      background-color: var(--DARK);
+  }
+
+  .header-title, .header-text, .footer-text {
+      color: var(--CORAL);
+  }
+
+  .header-title {
+      margin: 0;
+      padding-top: 20px;
+      padding-bottom: 10px;
+      font-size: 36px;
+       }
+
+  .header-text {
+      margin: 0;
+      padding-bottom: 18px;
+      font-size: 24px;
+
+  }
+
+  .items {
+    display: block;
+    /* text-align: center; */
+  }
+
+  .items-box {
+      list-style: none;
+  }
+
+  
+
+  .items-box__list-check[type="checkbox"] {
+      display: none;
+  }
+
+  .items-box__list-check::before {
+     
+    width: 25px;
+    height: 25px;
+}
+
+
+
+  /* .items-box__list-check:checked + .items-box__list-title::before {
+      color: var(--BG);
+  } */
+
+
+  
+
+
+
+  .items-box__list-title {
+      font-size: 29px;
+      color: var(--WHITE);
+  }
+
+  .items-box__list-text {
+      font-size: 17px;
+      
+  }
+
+
+  
