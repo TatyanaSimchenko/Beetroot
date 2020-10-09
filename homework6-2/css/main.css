@@ -77,17 +77,6 @@
     height: 25px;
 }
 
-
-
-  /* .items-box__list-check:checked + .items-box__list-title::before {
-      color: var(--BG);
-  } */
-
-
-  
-
-
-
   .items-box__list-title {
       font-size: 29px;
       color: var(--WHITE);
@@ -95,7 +84,7 @@
 
   .items-box__list-text {
       font-size: 17px;
-      
+    
   }
 
 
