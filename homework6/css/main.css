@@ -45,7 +45,7 @@
   margin-right: auto;
 }
 
-.item {
+.list {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -53,13 +53,13 @@
   padding: 54px 24px 65px;
 }
 
-.item__box {
+.list__item {
   display: block;
   width: 240px;
   margin-right: -30px;
 }
 
-.item__box-icon {
+.list__item-icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,9 +74,12 @@
   transition: all 0.1s ease-in;
 }
 
-.item__box-icon:hover {
+.list__item-icon:hover {
   background-color: var(--WHITE);
   fill: var(--WHITE);
+}
+.list__item-icon:hover svg {
+  fill: var(--BLUE);
 }
 
 .icon__use {
@@ -99,11 +102,7 @@
   padding-top: 3px;
 }
 
-.icon__use:hover {
-  fill: var(--BLUE);
-}
-
-.item__box-title {
+.list__item-title {
   text-align: center;
   font-family: "ProximaNova";
   font-weight: 400;
@@ -114,7 +113,7 @@
   color: var(--BLACK);
 }
 
-.item__box-text {
+.list__item-text {
   font-family: "ProximaNova";
   font-weight: 300;
   font-size: 15px;
