@@ -1,0 +1,29 @@
+{
+  "name": "lesson6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf -f dist",
+    "css:watch": "sass --watch src/scss:dist/css",
+    "css:build": "sass src/scss:dist/css",
+    "html:validate": "html-validate dist/*.html",
+    "html:build": "posthtml -c posthtml.json",
+    "html:build:validate": "run-s html:build html:validate",
+    "html:watch": "onchange \"src/**/*.html\" -- npm run html:build:validate",
+    "images:build": "imagemin src/images/**/* --out-dir=dist/images -p",
+    "images:watch": "onchange \"src/images\" -- npm run images:build",
+    "fonts:build": "cpr src/fonts dist/fonts -o || true",
+    "fonts:watch": "onchange \"src/fonts\" -- npm run fonts:build",
+    "server": "browser-sync start --server \"dist\" --files \"dist\"",
+    "build:all": "run-p html:build:validate css:build images:build fonts:build",
+    "watch:all": "run-p html:watch css:watch images:watch fonts:watch",
+    "watch:server": "run-p watch:all server",
+    "dev": "run-s clean build:all watch:server",
+    "start": "npm run dev",
+    "build": "run-s clean build:all"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
