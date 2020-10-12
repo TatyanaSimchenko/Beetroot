@@ -1,3 +1,35 @@
-h1 {
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;700;900&display=swap');
+
+:root {
+    --ORANGE: #ff6033;
+    --BLUR: #00b7b7;
+    --WHITE: #fff;
+    --BLACK: #000;
 }
+
+// font-family: 'Raleway', sans-serif;
+// font-family: 'Pacifico', cursive;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+  .header__logo-title {
+    font-family: 'Pacifico', cursive;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+
+
+
+
