@@ -141,7 +141,6 @@ body {
 }
 
 .checkbox__list-item:hover {
-  background-color: var(--DARKGREY);
   border-top: 4px solid var(--WHITE);
   border-bottom: 4px solid var(--WHITE);
 }
@@ -152,6 +151,10 @@ body {
 
 .checkbox__list-item:nth-child(even) {
   background-color: var(--GREY);
+}
+
+.checkbox__list-item:nth-child(even):hover, .checkbox__list-item:nth-child(odd):hover {
+  background-color: var(--DARKGREY);
 }
 
 .checkbox__label-text {
