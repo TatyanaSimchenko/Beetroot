@@ -1,0 +1,31 @@
+.shopping-item {
+  display: block;
+  overflow: hidden;
+  padding: 16px;
+  @include flex(flex-start, center);
+  cursor: pointer;
+  &__input {
+    @include size(25px);
+    margin-right: 20px;
+    flex-shrink: 0;
+  }
+  &__content {
+    @include flex(flex-start, baseline);
+  }
+  &__name {
+    @include text($H20, 400, $WHITE);
+    margin-right: 12px;
+  }
+  &__extra {
+    @include text($H12, 400, $TEXT-SECONDARY-COLOR);
+    position: relative;
+    top: -1px;
+    display: inline-block;
+    &::before {
+      content: '(';
+    }
+    &::after {
+      content: ')';
+    }
+  }
+}
