@@ -1,0 +1,8 @@
+.nav {
+  @include flex(row, flex-start,stretch, nowrap);
+  margin-left: auto;
+  list-style: none;
+  background-color: $YELLOW;
+  max-width: 813px;
+  padding: 22px 40px;
+}
