@@ -11,6 +11,9 @@ body {
   margin-right: auto;
   font-size: $base-font-size;
   font-family: $base-font;
-  
   min-height: 100vh;
+}
+
+.container {
+  background-color: $BACKGROUND-COLOR;
 }
