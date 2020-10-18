@@ -17,3 +17,8 @@ body {
 .container {
   background-color: $BACKGROUND-COLOR;
 }
+
+.wrapper {
+  position: sticky;
+  top: 2em;
+}

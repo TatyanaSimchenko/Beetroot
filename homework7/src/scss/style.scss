@@ -1,38 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Playfair+Display&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Playfair+Display&display=swap");
+@import url("https://cdn.linearicons.com/free/1.0.0/icon-font.min.css");
 
-
-@import './vars';
-@import './mixins';
-@import './common';
+@import "./vars";
+@import "./mixins";
+@import "./common";
 
 //components
 
-@import './components/header';
-@import './components/nav';
-@import './components/button';
-@import './components/icon';
-@import './components/item-button';
-@import './components/main';
-@import './components/article';
+@import "./components/header";
+@import "./components/nav";
+@import "./components/main";
+@import "./components/article";
 
 
-
-
-
-
-
-
-
-
-
-// @font-face {
-//   font-family: 'ProximaNova';
-//   src: url('./fonts/ProximaNovaRegular.woff') format('woff'),
-//        url('./fonts/ProximaNovaRegular.woff2') format('woff2');
-//   font-weight: 400;
-//   font-style: normal;
-// }
-
-
-// font-family: 'Open Sans', sans-serif;
-// font-family: 'Playfair Display', serif;

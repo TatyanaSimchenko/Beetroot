@@ -1,26 +1,26 @@
 .article {
   &__subtitle {
-    @include text($H20, 400, $SUBTITLE-COLOR);
+    @include text($H20, 400, $TOP-SUBTITLE-COLOR);
     text-transform: uppercase;
     margin-bottom: 44px;
   }
   &__title {
     @include text($H78, 400, $BLACK);
-    text-transform: uppercase;
+     text-transform: uppercase;
   }
-  &__title-text{
+  &__title-text {
     @include text($H30, 400, $BOTTOM-SUBTITLE-COLOR);
-    font-style: italic;
-    font-family: $second-font;
+     font-style: italic;
+    font-family: "Playfair Display", serif;
     margin-bottom: 60px;
   }
   &__text {
     @include text($H27, 400, $BLACK);
-    font-family: $second-font;
+    font-family: "Playfair Display", serif;
     padding-bottom: 40px;
-    &-italic {
-      font-style: italic;
-      font-family: $second-font;
-    }
+  }
+  &__text-italic {
+    font-style: italic;
+    font-family: "Playfair Display", serif;
   }
 }
