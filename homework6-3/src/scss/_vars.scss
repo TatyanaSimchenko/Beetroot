@@ -1,0 +1,26 @@
+//COLORS
+$WHITE: #fff;
+$GREY: #3B3F45;
+$BG-COLOR: #4A4F56;
+$HEDING-COLOR: #E5645E;
+$TEXT-SECONDARY-COLOR: #CAD1D7;
+$TEXT-COLOR: #A49FB4;
+$ODD-BG-COLOR: #88839E;
+$EVEN-BG-COLOR: #7A7593;
+$HOVER-BG-COLOR: #625E77;
+$ACTIVE-COLOR: #e7762a;
+
+//FONTS
+$base-font: 'Trebuchet MS', Trebuchet, Arial, sans-serif;
+$base-font-size: 16px;
+
+//FONT-SIZES
+@function calcRem($size) {
+  $remSize: $size / $base-font-size;
+  @return #{$remSize}rem; 
+}
+
+$H24: calcRem(24px); //1.5rem;
+$H20: calcRem(20px);
+$H18: calcRem(18px);
+$H12: calcRem(12px);
