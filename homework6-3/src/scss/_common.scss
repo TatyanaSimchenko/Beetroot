@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: $base-font-size;
+  font-family: $base-font;
+  background-color: $GREY;
+  min-height: 100vh;
+  border: 25px solid $WHITE;
+  @include flex-col(flex-start, stretch);
+}
+ 

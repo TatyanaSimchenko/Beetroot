@@ -1,0 +1,26 @@
+@mixin text($font-size: $H18, $font-weight: 500, $font-color: $WHITE) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  color: $font-color;
+}
+
+@mixin flex($jc:flex-start, $ai: stretch, $direction: row, $wrap: nowrap) {
+  display: flex;
+  justify-content: $jc;
+  align-items: $ai;
+  flex-direction: $direction;
+  flex-wrap: $wrap;
+}
+
+@mixin flex-col($jc:flex-start, $ai: stretch, $direction: column, $wrap: nowrap) {
+  display: flex;
+  justify-content: $jc;
+  align-items: $ai;
+  flex-direction: $direction;
+  flex-wrap: $wrap;
+}
+
+@mixin size($size) {
+  width: $size;
+  height: $size;
+}

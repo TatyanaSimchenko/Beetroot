@@ -1,0 +1,9 @@
+.header {
+  padding: 22px;
+  background-color: $BG-COLOR;
+  @include flex-col(flex-start, center);
+  &__title {
+    @include text($H24, 700, $HEDING-COLOR);
+    margin-bottom: 4px;
+  }
+}

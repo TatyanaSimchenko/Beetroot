@@ -1,0 +1,9 @@
+.shopping-list {
+  list-style: none;
+  &__item:nth-last-of-type(odd) {
+    background-color: $ODD-BG-COLOR;
+  }
+  &__item:nth-last-of-type(even) {
+    background-color: $EVEN-BG-COLOR;
+  }
+}
