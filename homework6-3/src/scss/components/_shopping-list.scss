@@ -1,5 +1,4 @@
 .shopping-list {
-  // position: relative;
   list-style: none;
   &__item:nth-last-of-type(odd) {
     background-color: $ODD-BG-COLOR;

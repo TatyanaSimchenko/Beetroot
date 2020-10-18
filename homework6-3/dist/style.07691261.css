@@ -66,6 +66,7 @@ body {
 
 .shopping-item {
   display: block;
+  position: relative;
   overflow: hidden;
   padding: 12px 16px;
   display: flex;
@@ -109,6 +110,13 @@ body {
   text-decoration: line-through;
   color: #A49FB4;
 }
+.shopping-item__input:checked + .shopping-item__content .shopping-item__icon {
+  display: block;
+  position: absolute;
+  top: 12px;
+  left: 16px;
+  z-index: 1;
+}
 .shopping-item__input:checked + .shopping-item__content .shopping-item__name {
   color: #A49FB4;
 }
@@ -121,6 +129,12 @@ body {
   align-items: baseline;
   flex-direction: row;
   flex-wrap: nowrap;
+}
+.shopping-item__box__icon {
+  display: none;
+}
+.shopping-item__icon {
+  display: none;
 }
 .shopping-item__name {
   font-size: 1.25rem;
