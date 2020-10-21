@@ -1,0 +1,19 @@
+.main {
+  margin-bottom: 30px;
+  max-width: 1060px;
+  background-color: $WHITE;
+  padding: 200px 130px 20px 130px;
+  position: absolute;
+  top: 140px;
+  z-index: -1;
+  &__line {
+    width: 1px;
+    height: 100%;
+    border: 1px solid $VERTICAL-LINE-COLOR;
+    position: absolute;
+    left: 70px;
+    top: 0;
+    color: $VERTICAL-LINE-COLOR;
+    @include flex(row, flex-start, stretch, nowrap);
+  }
+}

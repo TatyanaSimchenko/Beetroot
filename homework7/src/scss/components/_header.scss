@@ -1,0 +1,39 @@
+.header {
+  @include flex-col(column, flex-end, stretch, nowrap);
+  background-color: $BLACK;
+  max-width: 880px;
+  min-height: 190px;
+  padding-left: 65px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 46px;
+  margin-left: auto;
+  &__subtitle {
+    font-family: $base-font;
+    @include text($H15, 400, $TOP-SUBTITLE-COLOR);
+    text-transform: uppercase;
+  }
+  &__title {
+    font-family: $second-font;
+    @include text($H48, 400, $WHITE);
+    position: relative;
+    &::after {
+      content: "";
+      width: 1px;
+      height: 40px;
+      background-color: $WHITE;
+      position: absolute;
+      top: 13px;
+      margin-left: 8px;
+    }
+  }
+
+  &__line {
+    // width: 100%;
+    // max-width: 815px;
+    width: 815px;
+    height: 2px;
+    background-color: $GORIZONT-LINE-COLOR;
+    @include flex(row, flex-end, stretch, nowrap);
+  }
+}
