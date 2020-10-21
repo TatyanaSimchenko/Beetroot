@@ -1,0 +1,29 @@
+$style: list;
+
+.#{$style} {
+  list-style: none;
+  font-size: 0;
+  border: 1px solid #fff;
+  &:hover {
+    .#{$style}__item:not(:hover) {
+      &:before {
+        opacity: 0.4;
+      }
+    }
+  }
+  &__item {
+    border: 3px solid #fff;
+    width: 100%;
+    &--1-2 {
+      width: 50%;
+    }
+    &--1-4 {
+      width: 25%;
+    }
+    @for $i from 1 through length($color-list) {
+      &:nth-last-child(#{$i}) {
+        background-color: nth($color-list, $i);
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.card {
+  display: inline-block;
+  text-align: center;
+  padding: 32px;
+  opacity: 0.8;
+  cursor: pointer;
+  position: relative;
+  &::before {
+    content: '';
+    display: block;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    background-color: #fff;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+  }
+  &__title {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 6px;
+  }
+  &__temp {
+    color: #fff;
+    opacity: 0.7;
+    font-size: 22px;
+    font-weight: 300;
+    margin-right: 6px;
+  }
+  &__icon {
+    font-size: 27px;
+    font-weight: 700;
+    color: #fff;
+    opacity: 0.7;
+  }
+}
