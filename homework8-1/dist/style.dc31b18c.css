@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@font-face {
+  font-family: "Miso";
+  src: url("miso-bold.7f9b6bf9.ttf") format("truetype"), url("miso-bold.9687820e.woff") format("woff"), url("miso-bold.420a15f6.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Miso";
+  src: url("miso.1332063d.ttf") format("truetype"), url("miso.ac96ccc0.woff") format("woff"), url("miso.651a7d67.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #333333;
+}
+
+.main {
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  align-items: row;
+  flex-wrap: nowrap;
+  max-width: 1200px;
+  height: 600px;
+  background-color: #fdde7e;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.card {
+  max-width: 360px;
+  height: 440px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  margin: 80px 15px;
+  padding: 40px;
+  text-align: center;
+  transition: alls 0.2s ease;
+}
+.card:hover {
+  height: 500px;
+  margin: 60px 15px;
+  padding-top: 60px;
+}
+.card:hover .card__price {
+  margin-bottom: 30px;
+}
+.card__price {
+  font-size: 4.375rem;
+  font-weight: 700;
+  color: #02995b;
+  line-height: 0.9;
+  font-family: "Miso", sans-serif;
+  margin-bottom: 15px;
+}
+.card__title {
+  font-size: 3.5rem;
+  font-weight: 500;
+  color: #333333;
+  font-family: "Miso", sans-serif;
+  margin-bottom: 20px;
+}
+.card__text {
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  align-items: column;
+  flex-wrap: nowrap;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #333333;
+  letter-spacing: 0.09rem;
+}
+
+.cup__cup-smoke {
+  margin-bottom: 6px;
+}
+.cup__cup-cup {
+  position: relative;
+  left: 5px;
+  margin-bottom: 22px;
+}
+.cup__cup-bean {
+  position: absolute;
+  left: -10px;
+  right: 0;
+  top: 15px;
+}
