@@ -1,0 +1,30 @@
+
+//colors
+$WHITE: #fff;
+$BLACK: #000;
+$BACKGROUND-COLOR: #464f54;
+$YELLOW: #f7bd2c;
+$SUBTITLE-COLOR: #b4b4b4;
+$TOP-SUBTITLE-COLOR: #767676;
+$BOTTOM-SUBTITLE-COLOR: #8f8f8f;
+$GORIZONT-LINE-COLOR: #303030;
+$VERTICAL-LINE-COLOR: #e8eced;
+
+
+//fonts
+$base-font: 'Open Sans', sans-serif;
+$second-font: 'Playfair Display', serif;
+$base-font-size: 16px;
+
+//font-sizes
+@function calcRem($size) {
+  $remSize: $size / $base-font-size;
+  @return #{$remSize}rem;
+}
+
+$H15: calcRem(15px);
+$H20: calcRem(20px);
+$H27: calcRem(27px);
+$H30: calcRem(30px);
+$H48: calcRem(48px);
+$H78: calcRem(78px);

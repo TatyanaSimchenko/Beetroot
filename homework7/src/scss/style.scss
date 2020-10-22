@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Playfair+Display&display=swap");
+@import url("https://cdn.linearicons.com/free/1.0.0/icon-font.min.css");
+
+@import "./vars";
+@import "./mixins";
+@import "./common";
+
+//components
+
+@import "./components/header";
+@import "./components/nav";
+@import "./components/main";
+@import "./components/article";
+
+
