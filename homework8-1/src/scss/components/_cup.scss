@@ -1,0 +1,16 @@
+.cup {
+  &__cup-smoke {
+    margin-bottom: 6px;
+  }
+  &__cup-cup {
+    position: relative;
+    left: 5px;
+    margin-bottom: 22px;
+  }
+  &__cup-bean {
+    position: absolute;
+    left: -10px;
+    right: 0;
+    top: 15px;
+  }
+}

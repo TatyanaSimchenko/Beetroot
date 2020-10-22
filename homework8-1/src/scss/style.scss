@@ -1,3 +1,32 @@
-h1 {
-  color: red;
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@font-face {
+  font-family: 'Miso';
+  src: url("../fonts/miso-bold.ttf") format("truetype"),
+    url("../fonts/miso-bold.woff") format("woff"),
+    url("../fonts/miso-bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
 }
+
+@font-face {
+  font-family: 'Miso';
+  src: url("../fonts/miso.ttf") format("truetype"),
+    url("../fonts/miso.woff") format("woff"),
+    url("../fonts/miso.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@import './vars';
+@import './common';
+@import './mixins';
+
+
+
+//components
+@import './components/main';
+@import './components/card';
+@import './components/cup';
+
+
+// font-family: 'Lato', sans-serif;
