@@ -1,0 +1,9 @@
+.main {
+  @include flex(center, center, row, nowrap);
+  @include size(1200px, 600px);
+  background-color: $BG-COLOR;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}

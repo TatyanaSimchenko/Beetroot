@@ -1,0 +1,31 @@
+$GREY-BG: #333333;
+$BG-COLOR: #fdde7e;
+$BRONZE-CUP-COLOR: #ff7900;
+$BRONZE-SMOKE-COLOR: #ffbc7f;
+$BRONZE-COFFE-COLOR: #e56d00;
+$GOLD-CUP-COLOR: #ffca28;
+$GOLD-SMOKE-COLOR: #ffe493;
+$GOLD-COFFE-COLOR: #e5b524;
+$SILVER-CUP-COLOR: #bdbdbd;
+$SILVER-SMOKE-COLOR: #dedede;
+$SILVER-COFFE-COLOR: #aaaaaa;
+$PRICE-COLOR: #02995b;
+$TEXT-COLOR: #333333;
+$WHITE: #fff;
+
+//fonts
+$base-font: 'Lato', sans-serif;
+$second-font: 'Miso', sans-serif;
+
+//font-sizes
+$base-font-size: 16px;
+
+@function calcRem($size) {
+  $remSize: $size / $base-font-size;
+  @return #{$remSize}rem;
+}
+$H70: calcRem(70px);
+$H56: calcRem(56px);
+$H20: calcRem(20px);
+
+

@@ -1,0 +1,36 @@
+.card {
+  @include size(360px, 440px);
+  width: 100%;
+  background-color: $WHITE;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  margin: 80px 15px;
+  padding: 40px;
+  text-align: center;
+  transition: alls 0.2s ease;
+  &:hover {
+    height: 500px;
+    margin: 60px 15px;
+    padding-top: 60px;
+  }
+  &:hover &__price {
+    margin-bottom: 30px;
+  }  
+  &__price {
+    @include text($H70, 700, $PRICE-COLOR);
+    line-height: 0.9;
+    font-family: $second-font;
+    margin-bottom: 15px;
+  }
+  &__title {
+    @include text($H56, 500, $TEXT-COLOR);
+    font-family: $second-font;
+    margin-bottom: 20px;
+  }
+  &__text {
+    @include flex-col(center, center, column, nowrap);
+    @include text($H20, 400, $TEXT-COLOR);
+    letter-spacing: 0.09rem;
+  }
+}
+
