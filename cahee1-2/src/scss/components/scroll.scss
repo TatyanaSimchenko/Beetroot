@@ -1,0 +1,10 @@
+.scroll {
+  @include flex(center, center);
+  &__link {
+    width: 12px;
+    cursor: pointer;
+    &-icon {
+      height: 40px;
+    }
+    }
+}

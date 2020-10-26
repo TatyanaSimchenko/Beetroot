@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="shortcut icon" type="image/png" href="./images/logo.png"/>
+  <link rel="stylesheet" href="./scss/style.scss">
+</head>
+<body>
+  <header class=" header">
+    <div class="container">
+    <div class="wrapper">
+    <div class="header__logo">
+       <a class="header__logo-link" href="#">Cahee</a>
+    </div>
+    <nav class="header-nav">
+    <ul class="header-nav__item">
+      <li class="header-nav__item-list">
+        <a class="header-nav__item-link" href="#">Home</a>
+      </li>
+      <li class="header-nav__item-list">
+        <a class="header-nav__item-link" href="#">About</a>
+      </li>
+      <li class="header-nav__item-list">
+        <a class="header-nav__item-link" href="#">Servises</a>
+      </li>
+      <li class="header-nav__item-list">
+        <a class="header-nav__item-link" href="#">Gallery</a>
+      </li>
+      <li class="header-nav__item-list">
+        <a class="header-nav__item-link" href="#">Blog</a>
+      </li>
+      <li class="header-nav__item-list">
+        <a class="header-nav__item-link" href="#">Contact</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+  <div class="baner">
+    <h2 class="baner__title">Fresh Life</h2>
+    <p class="baner__text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <button class=" btn baner__btn">get free now</button>
+  </div>
+  <div class="scroll">
+    <a class="scroll__link" href="#about">
+      <svg class="scroll__link-icon" >
+        <use xlink:href="#scroll" />
+      </svg>
+    </a>
+  </div>
+</div>
+</div>
+  </header>
+  <section class=" about">
+    <div class="container">
+
+    
+    <div class="about__img">
+      <img src="../src/images/about-img.png" alt="image">
+    </div>
+    <div class="about__info">
+      <h1 class="about__title">About Us</h1>
+      <p id="about" class="about__text">Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+      <p class="about__text">Nim id est laborum. Sed ut perspiciatis undeomnis iste natus error sit voluptatem accusantium doloremquelaudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+    </div>
+  </div>
+  </section>
+
+<!-- svg -->
+<svg style="display: none;">
+
+  <symbol id="scroll"> <image  x="0px" y="0px"  width="24px" height="40px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAoCAQAAABOBPLeAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfkChcXMzrtcY3EAAADCUlEQVQ4y22VT2gUZxjGf8+X2dWj2m5A2EAJHpLN0oDQW6jSonU9lh6kBRPqyR486aGn0F56qD3UQ1sExVaFQnvx0tWKRfAilBLElHiQXJJWatKulF6yu+zjYf59s+nCfrsz887zPn/eb0YtQBgBDszouN9S268Af2vVv/AzTzQiqwC1snLDPGdZZC8xBOzoGl/7EeM3cIZlpoy2+Yk1vxDep1l31ABv8AlXhIEkxeNjf0rCCz7399rwQGmXmqZ8SheY0jdM8pkwE5MYPuQLavymd/UjPY3S5qCRezzQbb1B02/qT6+AWtBWl6ZX9J7XM/41OkCXQXY8zQ8cZpOOVgN1zrlJj0Wv58JY4ha3WMrowjqL9GhyjnrgkE4DF3kM5H4tAGiB3ClY5SLoNIcC73gPW76ZomUdhuma+pJ9brLlPZwIHBV09SwvNiAD2C7yEDyjK3w0qA2suZ+W5nmW/XIY9bUGtBMahl7OvixJ6eQrAD3Dq4GaYEg5IEW5CggwhqFQLclcyNasJBhhFdgR0VCeiDzZAZPG5qJDqjGhwM8pGV3liEZczflHOkioME2P/Cvz4EEeZawwia2MSA2qbpW3pfIyhjFiSTSnldYERR3yiyL2rppPqGzHglRucpWqUL7jHH2JRy4jWZ4NJZZgrND/oyVRlHGJ50IoY3RD2bC0sZwoxq4pdamKUjJ2xYT0XzIuU9EaD30hurINMyRH6cZqUg0D4YSx8OKBKH4TYBDYNuzfPVEiniVQWrUdeAyapb5bB5Vj15kBVgP3wSd0kALVhZJo4OGgTgrdD9xhh0k+iIPKza2E9z4N73A78FTfAefd3v20KKfXc5w3XPfTQN+XtMl+vmU6NjfOw9Nc54A2+ZL+RAM997/q0GSBh/xV9inG4XXd4LAGXNAdsvfDioY6oianmOAP/mOUJVHTaz7LZaY19LIugdBcPjFntOwp4DldnvAP6IBn1PEkaMPZK0uoVXo9749Yoh5vKHBf1/jKj4pzrYgvgVmO8TZzNIy2+J17vqs1j8qal2tkaX0N/q8AAAAAAElFTkSuQmCC"/>
+</symbol>
+</body>
+</html>
