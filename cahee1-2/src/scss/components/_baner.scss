@@ -1,0 +1,24 @@
+.baner {
+  margin: 0 auto;
+    display: block;
+      margin-bottom: 297px;
+    &__title {
+      @include text($H60, 900, $BLACK);
+      margin-bottom: 14px;
+      letter-spacing: 2px;
+    }
+    &__text {
+      @include text($H17, 300, $BLACK);
+      margin-bottom: 30px;
+      max-width: 400px;
+      letter-spacing: 0.5px;
+      line-height: 1.45;
+    }
+    &__btn {
+      background-color: $ORANGE;
+      display: block;
+      width: 200px;
+    }
+  }
+  
+  

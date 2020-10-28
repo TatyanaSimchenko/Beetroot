@@ -1,0 +1,19 @@
+.header-nav {
+  &__item {
+    list-style: none;
+    @include flex(flex-end, center, row, nowrap);
+    &-link {
+      text-decoration: none;
+      @include text($H16, 700, $BLACK);
+      text-transform: uppercase;
+      border-top: 3px solid transparent;
+      transition: border-top 0.2s ease;
+      &:hover {
+        border-top: 3px solid $ORANGE;
+      }
+    }
+    &-list:not(:last-of-type) {
+      margin-right: 35px;
+    }
+  }
+}

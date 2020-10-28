@@ -1,0 +1,22 @@
+$WHITE: #fff;
+$BLACK: #000;
+$ORANGE: #ff6033;
+$GRADIENT: radial-gradient(rgb(0,196,196) 0%, rgb(0,183,183) 32%, rgb(0,173,173) 68%, rgb(0,156,156) 100%);
+
+//font-sizes 
+$logo-font: 'Pacifico', cursive;
+$base-font: 'Raleway', sans-serif;
+$cecond-font: 'MyriadPro', sans-serif;
+$base-font-size: 16px;
+
+@function calcRem($size) {
+  $remSize: $size / $base-font-size;
+  @return #{$remSize}rem;
+}
+$H90: calcRem(90px);
+$H70: calcRem(70px); 
+$H60: calcRem(56px); 
+$H50: calcRem(50px); 
+$H20: calcRem(20px); 
+$H17: calcRem(17px); 
+$H16: calcRem(16px); 

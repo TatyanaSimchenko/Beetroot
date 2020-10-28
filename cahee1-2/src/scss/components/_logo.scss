@@ -1,0 +1,12 @@
+.header__logo {
+  &-link {
+    text-decoration: none;
+    font-family: $logo-font;
+    @include text($H50, 400, $BLACK);
+    transition: color 0.5s ease;
+    &:hover {
+      color: $ORANGE;
+      text-shadow: 0 1px 2px $BLACK;
+    }
+  }
+}
