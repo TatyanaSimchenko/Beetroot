@@ -1,0 +1,19 @@
+.blog {
+  padding-top: 100px;
+  padding-bottom: 120px;
+  display: block;
+  background: $BG-BLOG-COLOR;
+  &__title {
+    margin-bottom: 30px;
+    text-align: center;
+    @include text($H90, 700, $WHITE);
+  }
+  &__desccription {
+    max-width: 570px;
+    text-align: center;
+    padding: 0 15px 35px 15px;
+    @include text($H17, 300, $WHITE);
+    line-height: 1.6;
+    margin: 0 auto;
+  }
+}

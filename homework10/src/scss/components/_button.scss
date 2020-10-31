@@ -1,0 +1,20 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border: none;
+  outline: none;
+  @include text($H20, 300, $WHITE);
+  text-transform: uppercase;
+  width: 200px;
+  height: 55px;
+  background: $BUTTON-BLOG-COLOR;
+  border: 1px solid $BUTTON-BLOG-COLOR;
+  transition: background-color, border 0.5s ease;
+  &:hover {
+    background-color: $BLACK;
+    border: 1px solid $WHITE;
+  }
+
+}
