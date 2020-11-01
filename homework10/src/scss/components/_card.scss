@@ -63,7 +63,7 @@
     padding: 0 0 0 24px;
   }
   &__info-title {
-    @include text($H20, 400, $WHITE);
+    @include text($H20, 700, $WHITE);
     margin-bottom: 18px;
   }
   &__info-subtitle {
