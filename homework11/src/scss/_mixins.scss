@@ -6,3 +6,17 @@
   flex-wrap: $wrap;
 }
 
+@mixin text($font-size: $H16, $font-weight: 400, $font-color: $BLACK) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  color: $font-color;
+}
+
+@mixin placeholder {
+  &.placeholder { @content; }
+  &:-moz-placeholder { @content; }
+  &::-moz-placeholder { @content; }
+  &:-ms-input-placeholder { @content; }
+  &::-webkit-input-placeholder { @content; }
+}
+

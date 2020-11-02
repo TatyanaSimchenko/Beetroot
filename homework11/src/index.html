@@ -13,31 +13,31 @@
         For new projects, ideas, business or anything you'd like to discuss,
         contact with me!
       </p>
-      <div>
+      <div class="contact__inner">
         <form class="contact__form">
-          <ul>
-            <li>
+          <ul class="contact__form-list">
+            <li class="contact__form-field">
               <input
                 class="contact__form-name"
                 placeholder="Your name..."
                 type="text"
               />
             </li>
-            <li>
+            <li class="contact__form-field">
               <input
                 class="contact__form-email"
                 placeholder="Your email..."
                 type="email"
               />
             </li>
-            <li>
+            <li class="contact__form-field">
               <input
                 class="contact__form-tel"
                 placeholder="Your phone number..."
                 type="tel"
               />
             </li>
-            <li>
+            <li class="contact__form-field">
               <textarea
                 class="contact__form-msg"
                 placeholder="Your messge..."
@@ -48,21 +48,26 @@
 
         <div class="contact__info">
           <div class="contact__info-address">
-            Address
-            <span class="contact__info-address--name"
-              >123 City name, Street, City, Country</span
+            <p class="contact__info-address--name">Address</p> 
+            <p class="contact__info-address--name"
+              >123 City name, Street, City, Country</p
             >
           </div>
           <div class="contact__info-email">
-            Email
+            <p class="contact__info-email--name">Email</p>
             <a class="contact__info-email--link" href="#">cahee@domain.com</a>
           </div>
           <div class="contact__info-phone">
-            PHONE
-            <a href="tel:0123456789">+012 345 6789</a>
+            <p class="contact__info-phone--name">PHONE</p> 
+            <a class="contact__info-phone--num" href="tel:0123456789">+012 345 6789</a>
           </div>
         </div>
       </div>
     </section>
+    <footer class="footer">
+      <p class="footer__copyright">© 2015 Company. All right reserved.</p>
+      <p class="footer__logo">Cahee</p>
+      <p class="footer__text">Made with <span class="footer__text-word">love</span> love by Auskteez</p>
+    </footer>
   </body>
 </html>

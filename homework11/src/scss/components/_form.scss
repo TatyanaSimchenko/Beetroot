@@ -1,0 +1,37 @@
+.contact__form {
+  &-list {
+    list-style: none;
+  }
+  &-field {
+    margin-right: 170px;
+  }
+  &-name,
+  &-email,
+  &-tel,
+  &-msg {
+    border: transparent;
+    outline: none;
+    cursor: pointer;
+    width: 500px;
+
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 4px solid transparent;
+    background: $FORM-BG-COLOR;
+    opacity: 0.502;
+    @include text($H15, 700, $WHITE);
+    font-family: $base-font;
+    &:active,
+    &:focus {
+      border-left: 4px solid $FORM-ACTIVE-COLOR;
+    }
+    @include placeholder {
+      @include text($H15, 400, $WHITE);
+      opacity: 0.502;
+      font-family: $base-font;
+    }
+  }
+  &-msg {
+    min-height: 250px;
+  }
+  }

@@ -1,0 +1,28 @@
+.contact {
+  min-height: 870px;
+  display: block;
+  padding: 80px 0 115px;
+  background-image: url(../images/form-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  &__title {
+    text-align: center;
+    padding-bottom: 15px;
+    @include text($H90, 700, $BLACK);
+  }
+  &__description {
+    text-align: center;
+    max-width: 350px;
+    @include text($H17, 400, $BLACK);
+    line-height: 1.5;
+    padding-bottom: 50px;
+    margin: 0 auto;
+  }
+  &__inner {
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
+    max-width: 1180px;
+    display: flex;
+    // justify-content: space-between;
+  }
+}
