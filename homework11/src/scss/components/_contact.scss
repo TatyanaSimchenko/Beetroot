@@ -7,7 +7,7 @@
   background-size: cover;
   &__title {
     text-align: center;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     @include text($H90, 700, $BLACK);
   }
   &__description {
@@ -15,7 +15,7 @@
     max-width: 350px;
     @include text($H17, 400, $BLACK);
     line-height: 1.5;
-    padding-bottom: 50px;
+    padding-bottom: 45px;
     margin: 0 auto;
   }
   &__inner {
