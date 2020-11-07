@@ -1,0 +1,17 @@
+.servises__baner {
+  margin-top: 177px;
+  height: 500px;
+  &-title {
+    @include text($H90, 700, $WHITE);
+    padding: 136px 18px;
+    position: relative;
+    z-index: 1;
+  }
+  &-img {
+    width: 455px;
+    position: relative;
+    bottom: 450px;
+    left: 100px;
+    z-index: 0;
+  }
+}

@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.contact {
+  min-height: 870px;
+  display: block;
+  padding: 80px 0 115px;
+  background-image: url(form-bg.4ebaadd6.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact__title {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 5.625rem;
+  font-weight: 700;
+  color: #000;
+}
+.contact__description {
+  text-align: center;
+  max-width: 350px;
+  font-size: 1.0625rem;
+  font-weight: 400;
+  color: #000;
+  line-height: 1.5;
+  padding-bottom: 45px;
+  margin: 0 auto;
+}
+.contact__inner {
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+  max-width: 1180px;
+  display: flex;
+}
+
+.contact__form-list {
+  list-style: none;
+}
+.contact__form-field {
+  margin-right: 170px;
+}
+.contact__form-name, .contact__form-email, .contact__form-tel, .contact__form-msg {
+  border: transparent;
+  outline: none;
+  cursor: pointer;
+  width: 495px;
+  padding: 17px;
+  margin-bottom: 15px;
+  border-left: 4px solid transparent;
+  background: #00c4c4;
+  opacity: 0.502;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+}
+.contact__form-name:active, .contact__form-name:focus, .contact__form-email:active, .contact__form-email:focus, .contact__form-tel:active, .contact__form-tel:focus, .contact__form-msg:active, .contact__form-msg:focus {
+  border-left: 4px solid #355b82;
+}
+.contact__form-name.placeholder, .contact__form-email.placeholder, .contact__form-tel.placeholder, .contact__form-msg.placeholder {
+  font-size: 0.9375rem;
+  font-weight: 400;
+  color: #fff;
+  opacity: 0.502;
+  font-family: "Raleway", sans-serif;
+}
+.contact__form-name:-moz-placeholder, .contact__form-email:-moz-placeholder, .contact__form-tel:-moz-placeholder, .contact__form-msg:-moz-placeholder {
+  font-size: 0.9375rem;
+  font-weight: 400;
+  color: #fff;
+  opacity: 0.502;
+  font-family: "Raleway", sans-serif;
+}
+.contact__form-name::-moz-placeholder, .contact__form-email::-moz-placeholder, .contact__form-tel::-moz-placeholder, .contact__form-msg::-moz-placeholder {
+  font-size: 0.9375rem;
+  font-weight: 400;
+  color: #fff;
+  opacity: 0.502;
+  font-family: "Raleway", sans-serif;
+}
+.contact__form-name:-ms-input-placeholder, .contact__form-email:-ms-input-placeholder, .contact__form-tel:-ms-input-placeholder, .contact__form-msg:-ms-input-placeholder {
+  font-size: 0.9375rem;
+  font-weight: 400;
+  color: #fff;
+  opacity: 0.502;
+  font-family: "Raleway", sans-serif;
+}
+.contact__form-name::-webkit-input-placeholder, .contact__form-email::-webkit-input-placeholder, .contact__form-tel::-webkit-input-placeholder, .contact__form-msg::-webkit-input-placeholder {
+  font-size: 0.9375rem;
+  font-weight: 400;
+  color: #fff;
+  opacity: 0.502;
+  font-family: "Raleway", sans-serif;
+}
+.contact__form-msg {
+  min-height: 250px;
+}
+
+.contact__info-address, .contact__info-email {
+  margin-bottom: 12px;
+}
+.contact__info-address--name, .contact__info-email--name, .contact__info-phone--name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #000;
+  text-transform: uppercase;
+}
+.contact__info-address--text, .contact__info-email--text, .contact__info-phone--text {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #000;
+}
+.contact__info-address--link, .contact__info-address--num, .contact__info-email--link, .contact__info-email--num, .contact__info-phone--link, .contact__info-phone--num {
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #000;
+}
+
+.footer {
+  background-color: #000;
+}
+.footer__container {
+  padding: 13px 185px 21px 237px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1180px;
+}
+.footer__copyright {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #fff;
+}
+.footer__logo {
+  font-family: "Pacifico", cursive;
+  font-size: 1.5625rem;
+  font-weight: 400;
+  color: #fff;
+}
+.footer__text {
+  font-size: 0.9375rem;
+  font-weight: 400;
+  color: #fff;
+}
+.footer__text-word {
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: #ff2b58;
+}
