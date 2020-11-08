@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import './vars';
+@import './common';
+@import './mixins';
+
+
+
+//components
+@import './components/contact';
+@import './components/form';
+@import './components/contact-info';
+@import './components/footer';

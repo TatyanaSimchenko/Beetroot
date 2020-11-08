@@ -1,0 +1,28 @@
+.footer {
+  background-color: $BLACK;
+  // display: flex;
+  // justify-content: space-between;
+  // align-items: center;
+  // padding: 13px 185px 21px 237px;
+  &__container {
+  padding: 13px 185px 21px 237px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+max-width: 1180px;
+  }
+  &__copyright {
+    @include text($H16, 400, $WHITE);
+  }
+  &__logo {
+    font-family: $logo-font;
+    @include text($H25, 400, $WHITE);
+  }
+  &__text {
+    @include text($H15, 400, $WHITE);
+  }
+  &__text-word {
+    @include text($H15, 700, $FOOTER-SPAN-COLOR);
+  }
+}

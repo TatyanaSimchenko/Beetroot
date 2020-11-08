@@ -1,0 +1,19 @@
+.contact__info {
+  &-address, &-email {
+    margin-bottom: 12px;
+  }
+  &-address, &-email, &-phone {
+    &--name {
+      @include text($H20, 700, $BLACK);
+      text-transform: uppercase;
+    }
+    &--text {
+      @include text($H20, 400, $BLACK);
+    }
+    &--link, &--num {
+      cursor: pointer;
+      text-decoration: none;
+      @include text($H20, 400, $BLACK);
+    }
+  }
+}
