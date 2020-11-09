@@ -1,0 +1,23 @@
+//colors
+
+$BLACK: #000;
+$WHITE: #fff;
+$GALLERY-BG-COLOR: #ffe92f;
+$GREY-BLUE: #5585a2;
+$IMG-BG-COLOR: #00c4c4;
+
+// box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+
+//font-sizes 
+$base-font:'Raleway', sans-serif;
+$base-font-size: 16px;
+
+@function calcRem($size) {
+  $remSize: $size / $base-font-size;
+  @return #{$remSize}rem;
+}
+$H90: calcRem(90px);
+$H20: calcRem(20px);
+$H17: calcRem(17px);
+
+

@@ -1,0 +1,43 @@
+.grid {
+  max-width: 1200px;
+  margin: 0 auto 45px;
+  width: 100%;
+}
+  .grig__row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 15px;
+    
+    &-large {
+      margin-bottom: 20px;
+    }
+    // @media screen and (min-width: 900px) {
+    //   .grig__row {
+    //         display: block;
+    //       }
+    //     }
+    
+   }
+  
+  .image-wrapper--img {
+    margin-bottom: 17px;
+  }
+  .grid__row-img {
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+  }
+  
+  
+
+
+  
+
+
+
+
+
+
+
+
+
