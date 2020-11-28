@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Money Converter</h1>
+  <p>
+    <label>$</label>
+    <input type="number" id="inputdol" placeholder="$" oninput="moneyConverter(this.value)" onchange="moneyConverter(this.value)"
+  </p>
+  <p>UAN: <span id="outputuan"></span></p>
+  <p>EUR: <span id="outputeur"></span></p>
+  <p>AZN: <span id="outputazn"></span></p>
+  <script src="./main.js"></script>
+</body>
+</html>
