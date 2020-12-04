@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.servises {
+  background-color: #70bfff;
+}
+.servises__container {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 114px;
+}
+
+.servises__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 24px;
+  height: 470px;
+  margin-top: 182px;
+}
+.servises__list-items {
+  list-style: none;
+}
+.servises__list-item {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  background-color: #fff;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.servises__list-item--title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #000;
+  width: 285px;
+  text-align: center;
+  padding-top: 37px;
+  padding-left: 16px;
+}
+.servises__list-item--line {
+  width: 2px;
+  height: 100px;
+  right: 5px;
+  border: 1px solid #9d9d9d;
+  position: relative;
+}
+.servises__list-item--svg {
+  padding-right: 20px;
+}
+.servises__list-item--quality, .servises__list-item--delivery, .servises__list-item--carrot {
+  padding-right: 20px;
+}
+.servises__list-item:not(:last-of-type) {
+  margin-bottom: 20px;
+}
+.servises__list .title-delivery {
+  padding-top: 24px;
+}
+
+.servises__baner {
+  margin-top: 177px;
+  height: 500px;
+}
+.servises__baner-title {
+  font-size: 5.625rem;
+  font-weight: 700;
+  color: #fff;
+  padding: 136px 18px;
+  position: relative;
+  z-index: 1;
+}
+.servises__baner-img {
+  width: 455px;
+  position: relative;
+  bottom: 450px;
+  left: 100px;
+  z-index: 0;
+}
