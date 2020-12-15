@@ -1,0 +1,19 @@
+.student-list {
+  @include flex(center);
+  flex-wrap: wrap;
+  margin: 0 -12px;
+  animation: fadeIn 0.2s ease;
+  li {
+    flex-basis: 100%;
+    margin: 0 12px 24px;
+    @include media($screen-tablet-small) {
+      flex-basis: calc(50% - 24px);
+    }
+    @include media($screen-tablet-large) {
+      flex-basis: calc(33.3% - 24px);
+    }
+    @include media($screen-fullhd) {
+      flex-basis: calc(25% - 24px);
+    }
+  }
+}

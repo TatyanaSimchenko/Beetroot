@@ -1,0 +1,18 @@
+.title {
+  max-width: 300px;
+  text-align: center;
+  @include text(50px, 900, #fff);
+  margin: 20px auto 50px;
+  border-bottom: 4px solid #fff;
+  border-left: 4px solid #fff ;
+  border-top: 2px solid rgba(13, 160, 245, 0.774);
+  border-right: 2px solid rgba(13, 160, 245, 0.774);
+  transition: all 0.5s ease;
+  &:hover {
+    color:  rgba(13, 160, 245, 0.774);
+    border-bottom: 4px solid  rgba(13, 160, 245, 0.774);
+  border-left: 4px solid rgba(13, 160, 245, 0.774) ;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  }
+}

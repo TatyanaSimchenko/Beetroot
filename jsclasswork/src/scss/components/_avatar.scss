@@ -1,0 +1,7 @@
+.avatar {
+  @include size(90px, true);
+  &__image {
+    object-fit: cover;
+    @include size(90px, true);
+  }
+}

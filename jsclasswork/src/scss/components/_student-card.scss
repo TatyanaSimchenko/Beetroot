@@ -1,0 +1,36 @@
+.student-card {
+  @include flex(flex-start, center);
+  border-radius: 2px;
+  background-color:#fff;
+  box-shadow: 2px 2px 2px 0px  rgba(226, 227, 228, 0.5);
+  border: 1px solid transparent;
+  padding: 23px;
+  transition: all 0.5s ease;
+  &:hover {
+    box-shadow: 5px 5px 2px 0px  rgba(13, 160, 245, 0.5);
+    border: 1px solid rgba(13, 160, 245, 0.5);
+    
+  }
+
+  &__avatar {
+    margin-right: 24px;
+  }
+  &__content {
+    @include flex-col;
+  }
+  &__name {
+    @include text(20px, 700,  rgb(34, 0, 226));
+    margin-bottom: 12px;
+  }
+  &__link {
+    @include text(16px, 500, rgba(13, 160, 245));
+    transition: all 0.8s ease-in;
+    &:hover {
+      text-decoration:underline ;
+    }
+
+    &:not(:last-of-type) {
+      margin-bottom: 6px;
+    }
+  }
+}
