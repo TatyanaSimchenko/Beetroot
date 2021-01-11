@@ -1,0 +1,10 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  touch-action: manipulation;
+}
+
+body, a, button, input, select, textarea {
+  font-family: $base-font;
+}
