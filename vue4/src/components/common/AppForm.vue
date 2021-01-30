@@ -39,6 +39,12 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss" scoped>
+form {
+  width: 100%;
+}
+.form-input, input {
+  width: 100%;
+}
 
 </style>

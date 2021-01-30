@@ -1,6 +1,11 @@
 <template>
-<label class="checkbox">
-  <input type="checkbox">
+<label class="radio">
+  <input 
+  :value="value"
+  :checked="checked"
+  type="radio"
+  @change="$emit('change', value)"
+  >
   <span><slot/></span>
 </label>
   
@@ -8,10 +13,11 @@
 
 <script>
 export default {
-   name:"AppFilter"
-}
+   name:"AppFilter",
+   props: {
+     value: String,
+     checked: Boolean,
+   },
+};
 </script>
 
-<style>
-
-</style>
