@@ -82,7 +82,14 @@ export default {
       }
     },
     onSubmit(todo) {
-      this.todos.push(todo);
+      const hasEqual = this.todos.some(
+        (item) => item.name.toLowerCase() === todo.name.toLowerCase()
+      );
+      if (!hasEqual) {
+        this.todos.push(todo);
+      } else {
+        alert("This already exists!");
+      }
     },
   },
 };
